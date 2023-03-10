@@ -70,20 +70,22 @@ Para añadir a una persona como colaboradora de un repositorio hay que acceder a
 
 El primer paso sería crear una bifurcación del repositorio dado por el enunciado. Para ello seleccionamos la opción de arriba a la derecha, al lado de la estrella.
 
-![Bifurcar un repositorio]()
+![Bifurcar un repositorio](./Fotos/Parte2/00.png)
+
+![Bifurcar un repositorio](./Fotos/Parte2/01.png)
 
 Una vez bifurcado, necesitamos clonarlo localmente, tal y como se vió anteriormente. Una vez clonado creamos una rama nueva para realizar los cambios.
-
-![Clonar repo y nueva rama]()
-
-Desde la nueva rama realizamos algún cambio. Para que no haya conflictos con el resto de los compañeros, decido crear un archivo nuevo con mi nombre. Añadimos los cambios al área de staging, ejecutamos el `commit` y subimos los cambios.
 
 ```bash
 	$ git branch [nombre]
 	$ git checkout [nombre]
 ```
 
-![Realizar cambios y subirlos]()
+![Clonar repo y nueva rama](./Fotos/Parte2/02.png)
+
+Desde la nueva rama realizamos algún cambio. Para que no haya conflictos con el resto de los compañeros, decido crear un archivo nuevo con mi nombre. Añadimos los cambios al área de staging, ejecutamos el `commit` y subimos los cambios.
+
+![Realizar cambios y subirlos](./Fotos/Parte2/03.png)
 
 El siguiente paso es añadir el repositorio remoto, para ello ejecutamos los siguientes comandos.
 
@@ -93,7 +95,9 @@ El siguiente paso es añadir el repositorio remoto, para ello ejecutamos los sig
 	$ git fetch [nombre]
 ```
 
-![Añadir repositorio remoto]()
+![Añadir repositorio remoto](./Fotos/Parte2/04.png)
+
+\*\* **NOTA**: se puede ver en la imagen que ya me aparecía un repositorio remoto, he decidido ejecutar los comandos de nuevo a pesar de que el repositorio remoto sea el mismo
 
 El último paso desde la terminal sería ejecutar el `merge`.
 
@@ -102,12 +106,16 @@ El último paso desde la terminal sería ejecutar el `merge`.
 	$ git merge [nombre_subir]/main
 ```
 
+![Añadir repositorio remoto](./Fotos/Parte2/05.png)
+
 Tras este paso, si nos vamos al repositorio original podemos ver que aparece un mensaje para crear la nueva pull request.
 
-![Crear Pull Request (1)]()
+![Crear Pull Request (1)](./Fotos/Parte2/06.png)
 
-![Crear Pull Request (2)]()
+![Crear Pull Request (2)](./Fotos/Parte2/07.png)
 
 Tras este paso queda esperar que se acepten los cambios para verlos en el repositorio.
 
-![Cambios aceptados]()
+![Cambios aceptados](./Fotos/Parte2/08.png)
+
+![Cambios aceptados](./Fotos/Parte2/09.png)
