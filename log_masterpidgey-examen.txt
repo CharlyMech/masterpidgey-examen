@@ -1,0 +1,23 @@
+commit 349e7fd0bb1828ffc1952477c95c3ca01860c1d8
+Author: CharlyMech <sanchezreciocarlos99@gmail.com>
+Date:   Fri Mar 10 08:42:45 2023 +0100
+
+    Añado cambios del README hasta la parte 1 del enunciado
+
+commit 70feb3a619d6c2d4f4ed3c30a3cc6ac1d0289d1b
+Author: CharlyMech <sanchezreciocarlos99@gmail.com>
+Date:   Fri Mar 10 08:23:17 2023 +0100
+
+    Subir archivo 1.txt con el tag nuevo
+
+commit 559e09fbfda3e4b7f7f56d446c03ea0cff680ba0
+Author: CharlyMech <sanchezreciocarlos99@gmail.com>
+Date:   Fri Mar 10 08:18:54 2023 +0100
+
+    Añado el archivo de ignore
+
+commit b211014b131a5216b96bb0b4edecc9e5cef3cd89
+Author: CharlyMech <sanchezreciocarlos99@gmail.com>
+Date:   Fri Mar 10 08:14:20 2023 +0100
+
+    Añadir README al repositorio
