@@ -119,3 +119,5 @@ Tras este paso queda esperar que se acepten los cambios para verlos en el reposi
 ![Cambios aceptados](./Fotos/Parte2/08.png)
 
 ![Cambios aceptados](./Fotos/Parte2/09.png)
+
+Como conclusión, se puede ver la potencia que tiene el sistema de control de versiones para el desarrollo de software en un equipo con diferentes personas. En definitiva, un obligatorio si se quiere ser un buen desarrollador. Esto y tener un sistema Linux en el ordenador.
